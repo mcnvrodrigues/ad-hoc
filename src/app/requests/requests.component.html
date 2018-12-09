@@ -1,0 +1,38 @@
+<section>
+  <h1>
+    All Requests
+  </h1>
+</section>
+
+<section>
+  <div *ngFor="let req of requests">
+    <adhoc-request [request]="req" (idSelected)="receiverId($event)"></adhoc-request>
+  </div>
+</section>
+
+<!-- <section>
+  <article>
+    {{SelectedId?.id}}
+  </article>
+</section> -->
+
+<br>
+<br>
+
+<!--
+<h1>{{SelectedId?.id}}</h1>
+
+<dl>
+  <dt>Titulo</dt>
+  <dd>{{SelectedId?.title}}</dd>
+  <dt>Status</dt>
+  <dd>{{SelectedId?.status}}</dd>
+  <dt>Data</dt>
+  <dd>{{SelectedId?.date}}</dd>
+  <dt>Grupo Designado</dt>
+  <dd>{{SelectedId?.designatedGroup}}</dd>
+  <dt>Pessoa Designado</dt>
+  <dd>{{SelectedId?.designatePerson}}</dd>
+</dl>
+
+-->

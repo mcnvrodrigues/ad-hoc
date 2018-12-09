@@ -1,0 +1,32 @@
+a {
+font-size: 14px;
+color: #3B3030;
+/*text-decoration: none;*/
+text-transform:uppercase;
+/*white-space: nowrap;*/
+display: inline-block;
+}
+
+span.req{
+    border-radius: 5px;
+    border : 1px solid #2F21AD;
+    padding: 2px;
+   
+    -webkit-transition: all 0.2s ease; 
+    transition: all 0.2s ease;
+    
+}
+
+span.tit{
+    white-space: nowrap;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+}
+
+span.req:hover{
+    font-size: 20px;
+    color: #2F21AD;
+    
+    /*border-radius: 25px;*/
+}

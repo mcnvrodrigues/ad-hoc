@@ -1,0 +1,88 @@
+<body>
+<!--
+  <p>
+  <router-outlet></router-outlet> 
+  
+</p>
+
+-->
+<section class="main">
+  <aside class="keep">
+    <ul>
+      <li>
+        <a [routerLink]="['./requests']">
+          <span><i class="fa fa-database"></i></span>
+          All Requests
+          <span class="notif red">{{requests.length}}</span>
+        </a>
+      </li>      
+      <li>
+        <a [routerLink]="['./requests']">
+          <span><i class="fa fa-bookmark-o"></i></span>
+          My Requests
+          <span class="notif yellow">2</span>
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['./requests']">
+          <span><i class="fa fa-edit"></i></span>
+          My Changes
+          <span class="notif green">3</span>
+        </a>
+      </li>      
+      <li>
+        <a [routerLink]="['./requests']">
+          <span><i class="fa fa-dot-circle-o"></i></span>
+          My Tasks
+          <span class="notif pink">4</span>
+        </a>
+      </li>
+      <!--
+      <li>
+        <a href="/">
+          <span><i class="material-icons">photo</i></span>
+           
+        </a>
+      </li>      
+      <li>
+        <a href="/">
+          <span><i class="material-icons">import_contacts</i></span>
+           
+        </a>
+      </li>
+      <li>
+        <a href="/">
+          <span><i class="material-icons">event</i></span>
+           
+        </a>
+      </li>      
+      <li>
+        <a href="/">
+          <span><i class="material-icons">restaurant_menu</i></span>
+           
+        </a>
+      </li>      
+      <li>
+        <a href="/">
+          <span><i class="material-icons">textsms</i></span>
+           
+        </a>
+      </li>      
+      <li>
+        <a href="/">
+          <span><i class="material-icons">receipt</i></span>
+           
+        </a>
+      </li>
+  -->
+    </ul>
+  </aside>
+  
+  <article>
+    
+           <router-outlet></router-outlet> 
+    
+  </article>
+  
+</section>
+</body>

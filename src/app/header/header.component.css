@@ -1,0 +1,14 @@
+header {
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0px -8px 25px #6d6d6d;       position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    z-index: 991;
+  }
+
+  .menu{
+    display:inline-block;
+    cursor: pointer;
+  }
